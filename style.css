@@ -32,7 +32,7 @@ h1 {
 
 .donate-now {
     text-decoration: none;
-    background-image: linear-gradient(tomato, tomato);
+    background-color: tomato;
     padding: 10px 20px;
     border-radius: 10px;
     color: white;
@@ -52,24 +52,45 @@ h1 {
 }
 
 .donate-amount {
-    padding: 10px 10px;
+    padding: 13px 10px;
 
-    color: white;
+
     font-weight: 500;
     text-decoration: none;
-    background-color: greenyellow;
+    background-color: rgba(105, 108, 100, 0.075);
+}
+
+.tk100 {
+
+    display: inline;
 }
 
 .donate-amount2 {
-    margin-left: 80px;
+    margin-left: 60px;
+
+}
+
+.donate-amount3 {
+    background-color: rgba(255, 99, 71, 0.355);
+    border: 1px solid tomato;
+
 
 }
 
 .amount-input {
-    border: 0;
-    outline: 0;
-    background: transparent;
-    border-bottom: 1px solid black;
+    width: 30%;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgba(180, 176, 176, 0.144);
+    margin-left: 35%;
+    color: rgba(128, 128, 128, 0.415);
+}
+
+.taka {
+    margin-top: 50px;
 }
 
 .donate-now2 {
@@ -117,6 +138,39 @@ h1 {
 }
 
 .email-text {
+    padding: 12px;
+    margin: 8px 0;
+    background-color: rgba(128, 128, 128, 0.332);
+    color: white;
+    border: none;
+}
 
-    ba
+.submit {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin: 8px 0;
+}
+
+.end {
+    background-color: black;
+    text-align: center;
+    height: 130px;
+    font-variant: ;
+    margin-top: 80px;
+    font-stretch: ultra-condensed
+}
+
+span {
+    color: tomato;
+}
+
+.fr {
+    color: gray;
+}
+
+.lp {
+    text-align: center;
+    color: white;
 }
